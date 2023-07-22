@@ -9,7 +9,10 @@ document.querySelector("#sports").addEventListener('click', (e) => {
 
     console.log(target.textContent + " are clicked.");
 
-    if(target.matches("li"))target.style.backgroundColor = "lightGray";
+    if(target.matches("li")){
+        target.style.backgroundColor = "lightGray";
+        target.style.textDecoration = "line-through";
+    }
 });
 
 
