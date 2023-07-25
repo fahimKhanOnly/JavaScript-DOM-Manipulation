@@ -10,7 +10,7 @@ body{
     align-items: center;
     height: 100vh;
     text-align: center;
-    background: url(./img/bg-pic.jpg) no-repeat center center / cover;
+    background: url(../img/bg-pic.jpg) no-repeat center center / cover;
 }
 .header{
     font-size: 1.2rem;
